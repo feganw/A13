@@ -1,0 +1,226 @@
+/* the styles for the elements */
+
+/* The reset selector! */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: #ffffff;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width: 800px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid #931420;
+	background-color: #fffded;
+}
+
+.shadow {
+	text-shadow: 2px 2px #800000;
+}
+
+/* the styles for the header */
+header {
+	border-bottom: 3px solid #931420;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+}
+
+header img {
+	float: left;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+header h2 {
+	font-size: 170%;
+	color: #800000;
+}
+
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+}
+
+/* nav bar*/
+#nav_menu {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	position: relative;
+}
+
+#nav_menu li {
+	float: left;
+}
+
+#nav_menu li a {
+	display: block;
+	width: 160px;
+	text-align: center;
+	padding: 1em 0 1em 0;
+	text-decoration: none;
+	background-color: #800000;
+	color: white;
+	font-weight: bold;
+}
+
+#nav_menu::after {
+	display:block;
+	float: none;
+	
+}
+
+#nav_menu .current {
+	color: yellow;
+}
+
+#nav_menu a:hover {
+	font-style: italic;
+}
+
+#nav_menu a:focus {
+	font-style: italic;
+}
+
+/* nav bar sub menu*/
+#nav_menu ul {
+	display: none;
+	position: absolute;
+	float: none;
+	list-style-type: none;
+}
+
+#drop:hover ul {
+	display: block;
+}
+
+/* main */
+main {
+	clear: left;
+}
+
+/* the styles for the section */
+section {
+	width: 525px;
+	float: right;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+section h1 {
+	font-size: 150%;
+	padding-top: 0.5em;
+	padding-bottom: 0.25em;
+	margin: 0;
+}
+
+section h2 {
+	font-size: 130%;
+	color: #800000;
+	padding: 0.5em 0 0.25em 0;
+}
+
+section h3 {
+	font-size: 105%;
+	padding-bottom: 0.25em;
+}
+
+section img {
+	/*padding-bottom: 1em;*/
+}
+
+section p {
+	padding-bottom: 0.5em;
+}
+
+section blockquote {
+	padding: 0 2em 0 2em;
+	font-style: italic;
+}
+
+section ul {
+	padding: 0 0 0.25em 1.25em;
+	list-style-type: circle;
+}
+
+section li {
+	padding-bottom: 0.35em;
+}
+
+article {
+	padding: 0.5 0 0.5 0;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-top-color: #800000;
+	border-bottom-color: #800000;
+	border-top-style: solid;
+	border-bottom-style: solid;
+}
+
+article img {
+	float: right;
+	border: 1px solid black;
+	margin: 5px;
+}
+
+article h2 {
+	padding-top: 0.5em;
+}
+
+article h3 {
+	font-size: 105%;
+	padding-bottom: 0.25em;
+}
+
+aside {
+	width: 215px;
+	float: right;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+aside h2 {
+	font-size: 130%;
+	color: #800000;
+	padding: 0.5em 0 0.25em 0;
+}
+
+aside h3 {
+	font-size: 130%;
+	padding-bottom: 0.25em;
+}
+
+aside img {
+	padding-bottom: 1em;
+}
+
+aside a:hover {
+	font-style: italic;
+}
+
+aside a:focus {
+	font-style: italic;
+}
+
+footer {
+	background-color: #931420;
+	clear: right;
+}
+
+footer p {
+	text-align: center;
+	color: white;
+	padding: 1em 0 1em 0;
+}
+
+/* the styles for the footer */
